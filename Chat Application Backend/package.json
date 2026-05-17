@@ -1,0 +1,21 @@
+{
+  "name": "chat-application-using-web-socket",
+  "version": "1.0.0",
+  "description": "About this chat Application :",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/ws": "^8.18.1",
+    "express": "^5.2.1",
+    "typescript": "^6.0.3",
+    "ws": "^8.20.1"
+  }
+}
