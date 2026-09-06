@@ -91,7 +91,9 @@
 
 import { WebSocketServer, WebSocket } from 'ws';
 
-const wss = new WebSocketServer({ port: 8080 });
+//asking env for port if vaha nhi h tohh 8080 utha lo 
+const port = process.env.PORT ? parseInt(process.env.PORT) : 8080;
+const wss = new WebSocketServer({ port });
 
 interface User {
   socket: WebSocket;
